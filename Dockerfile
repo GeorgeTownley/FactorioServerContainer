@@ -13,3 +13,5 @@ EXPOSE 34197/udp
 # Set the default command to execute
 CMD ["./factorio/bin/x64/factorio", "--start-server", "/factorio/saves/my-save.zip"]
 
+
+# docker run -it -p 34197:34197/udp -v C:\Users\George\FactorioDockerSaves:/factorio/saves --name factorio-server my-factorio-server
