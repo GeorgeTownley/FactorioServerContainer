@@ -11,4 +11,5 @@ RUN tar -xvf factorio.tar.xz
 EXPOSE 34197/udp
 
 # Set the default command to execute
-CMD ["./factorio/bin/x64/factorio", "--start-server", "./factorio/saves/my-save.zip"]
+CMD ["./factorio/bin/x64/factorio", "--start-server", "/factorio/saves/my-save.zip"]
+
